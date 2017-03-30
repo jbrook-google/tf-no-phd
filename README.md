@@ -4,9 +4,17 @@ You will need a laptop with > 8gb of RAM running Linux, Mac OS X or Windows.
 
 [Download](https://www.docker.com/community-edition#download) and install Docker.
 
-1. Clone this repository and open a bash shell.
-2. Change directory to this project.
-3. Run `./run.sh`
+1. Clone this repository and open a bash shell:
+
+    git clone https://github.com/jbrook-google/tf-no-phd.git
+
+2. Change directory to this project:
+
+    cd tf-no-phd/
+
+3. Run:
+
+    ./run.sh
 
 Running the script will start up a Docker container running Jupyter notebooks with the necessary libraries for working with TensorFlow. The docker command in the script mounts the [work](./work) folder in this repository.
 
