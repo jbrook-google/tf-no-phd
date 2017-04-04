@@ -14,7 +14,7 @@ You will need a laptop with > 8gb of RAM running Linux, Mac OS X or Windows.
 
 3. Run:
 
-    ./run.sh
+    ./run.sh or ./run.ps1
 
 Running the script will start up a Docker container running Jupyter notebooks with the necessary libraries for working with TensorFlow. The docker command in the script mounts the [work](./work) folder in this repository.
 
